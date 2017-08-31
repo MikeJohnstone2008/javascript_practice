@@ -1,0 +1,16 @@
+//Cherokee hare
+(function({
+
+  let startingPopulation = 200
+  let birthRate = 0.1
+  let numberOfWeeks = 5
+  let totalPopulation = 0
+  let weekNumber = 1
+  //some comments
+    for(i = 0; weekNumber <= numberOfWeeks; i++){
+    totalPopulation = (totalPopulation * birthRate) + totalPopulation
+    weekNumber++
+    }
+  console.log(totalPopulation)
+
+})() //closing bracket for Self-invoking function

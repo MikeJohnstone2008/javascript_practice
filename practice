@@ -1,0 +1,9 @@
+(function(){
+  let myVar = 0
+  let myArray = [12200, 9750, 14400, 11666]
+
+  console.log(myArray.Math.max.apply(null, myArray))
+
+
+
+})//closing function tags
